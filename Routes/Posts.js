@@ -8,6 +8,8 @@ const posts=await Posts.findAll()
 res.json(posts)
 })
 
+
+
 router.post('/',async (req,res)=>{
     
 
